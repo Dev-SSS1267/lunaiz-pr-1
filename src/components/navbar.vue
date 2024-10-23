@@ -7,15 +7,7 @@ defineProps({
 })
 </script>
 
-
 <template>
-  <script>
-    $(document).ready(function() {
-      $('#nav-button').click(function() {
-        $('#navbar-coll').slideToggle();
-      });
-    });
-  </script>
 
   <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
