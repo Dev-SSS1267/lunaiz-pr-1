@@ -3,7 +3,7 @@
         <div class="mx-auto flex flex-wrap">
             <h1
             class="flex mb-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                <slot name="head-txt"></slot>
+                <slot name="head-txt"></slot><img class="flex img h-3 align-text-bottom" src="https://cdn.lunaiz.com/lunaiz_assets/dot.png" alt="..">
             </h1>
             <img class="flex img h-3 align-text-bottom" src="https://cdn.lunaiz.com/lunaiz_assets/dot.png" alt="..">
         </div>
