@@ -13,7 +13,8 @@ export default {
       'mono': ['Product Sans', 'NanumSquareNeoVar'],
       'display': ['Product Sans', 'NanumSquareNeoVar'],
       'body': ['Product Sans', 'NanumSquareNeoVar'],
-    }
+    },
+    darkMode: 'class',
   },
   plugins: [
     require('flowbite/plugin')
