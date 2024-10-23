@@ -5,7 +5,6 @@ import WelcomeItem from './WelcomeItem.vue'
 <template>
   <WelcomeItem class="text-gray-900 dark:text-white">
     <template #icon>
-      <SupportIcon />
     </template>
     <template #heading>Support Vue</template>
 

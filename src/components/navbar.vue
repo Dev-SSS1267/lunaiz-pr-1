@@ -1,12 +1,3 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
 
   <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700">
