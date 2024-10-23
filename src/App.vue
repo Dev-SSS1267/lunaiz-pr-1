@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from './components/navbar.vue'
 import Hero from './components/hero.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import mainItem from './components/mainItem.vue'
 </script>
 
 <template>
@@ -14,6 +14,8 @@ import TheWelcome from './components/TheWelcome.vue'
   </Hero>
 
   <main class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <TheWelcome />
+    <mainItem>
+      
+    </mainItem>
   </main>
 </template>
