@@ -15,7 +15,7 @@ defineProps({
         <img src="https://cdn.lunaiz.com/lunaiz_logo/logo-l.svg" class="h-9 block dark:hidden" alt="lunaiz logo" />
         <img src="https://cdn.lunaiz.com/lunaiz_logo/logo-d.svg" class="h-9 hidden dark:block" alt="lunaiz logo" />
       </a>
-      <button id="nav-button" data-collapse-toggle="navbar-coll" type="button"
+      <button data-collapse-toggle="navbar-coll" type="button"
         class="inline-flex items-center p-2 w-10 h-10 z-50 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-dropdown" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
