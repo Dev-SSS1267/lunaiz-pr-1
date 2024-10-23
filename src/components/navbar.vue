@@ -7,14 +7,23 @@ defineProps({
 })
 </script>
 
+
 <template>
+  <script>
+    $(document).ready(function() {
+      $('#nav-button').click(function() {
+        $('#navbar-coll').slideToggle();
+      });
+    });
+  </script>
+
   <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center rtl:space-x-reverse">
         <img src="https://cdn.lunaiz.com/lunaiz_logo/logo-l.svg" class="h-9 block dark:hidden" alt="lunaiz logo" />
         <img src="https://cdn.lunaiz.com/lunaiz_logo/logo-d.svg" class="h-9 hidden dark:block" alt="lunaiz logo" />
       </a>
-      <button data-collapse-toggle="navbar-coll" type="button"
+      <button id="nav-button" data-collapse-toggle="navbar-coll" type="button"
         class="inline-flex items-center p-2 w-10 h-10 z-50 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-dropdown" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
